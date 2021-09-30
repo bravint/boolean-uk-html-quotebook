@@ -7,15 +7,16 @@
 }
 
 splash {
-    display: grid;
-    grid-auto-columns:"main";
     height: 100vh;
+    display: grid;
+    grid-auto-rows:"main";
     justify-content: left;
 }
 
 .main {
     grid-area: main;
 }
+
 h1 {
     font-size: 100px;
 }
