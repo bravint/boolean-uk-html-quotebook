@@ -7,33 +7,35 @@
 
 splash {
     display: grid;
+    grid-auto-columns:"main";
     height: 100vh;
-    margin-left: 1rem;
-    padding-top: 20%;
+    margin-left: 1em;
+    justify-content: left;
 }
 
+.main {
+    grid-area: main;
+}
 h1 {
-    font-size: 16rem;
+    font-size: 20vw;
 }
 
 quotes > div {
-    font-family: "Heebo", sans-serif;
-    margin-left: 1rem;
+    margin-left: 1em;
     height: 100vh;
     width: 55ch;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 h2 {
     color: #f71568;
     text-transform: lowercase;
-    font-size: 4rem;
-    margin-bottom: 10rem; 
+    font-size: 5vw;
+    margin-bottom: 10em; 
 }
 
 p { 
-
     margin-bottom: 1em; 
 }
 
@@ -43,6 +45,7 @@ p {
 }
 
 footer {
-    margin-left: 1rem;
+    font-size: 2vw;
+    margin-left: 1em;
     text-align: left;
 }
